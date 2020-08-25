@@ -123,9 +123,9 @@ All information about radio control can be located on special page.
 
 ## Other pages
 
-[**Configuration file page**](Configuration.md) - contains extra data about configuration possibilities.  
-[**Button customize page**](Button.md) - contains guide how to change brightness using buttons.
-
+[**Configuration file page**](Configuration.md) - Provides more info about customization using `config.txt`.  
+[**Button customize page**](Button.md) - contains guide how to change brightness using buttons.  
+[**Wi-Fi connectivity page**](WiFi.md) - instruction set about how to connect controller to your AP, or use controller as AP. Mainly describes how to prepare controller for Art-Net usage.  
 
 [**Playlist file creation page**](modes/Playlist.md#File_creation)  
 
@@ -133,7 +133,7 @@ All information about radio control can be located on special page.
 [**Radio control page**](Radio.md)  
 [**Microphone page**](Mic.md)
 
-
+[**Effect recording page (Madrix)**](Recording.md)
 
 Modes description pages:
 - [**Manual mode description page**](modes/Manual.md)  
