@@ -1,0 +1,9 @@
+1, 0:00 //Run effect S1 at start
+2, 0:10 //Run effect S2 at 10th second
+3, 0:25 
+0, 0:30 
+4, 0:31 
+12, 0:35:541 //Turn S12 at 35.541
+1, 40100 //Turn S1 at 40100 ms = 40s 100ms
+0, 0:50
+3, 1:05 //Keep effect S3

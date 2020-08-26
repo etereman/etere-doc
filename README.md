@@ -1,6 +1,6 @@
 # Etere Documentation Page
 This page describes etereshop controller software.
-During time software changed multiple times, this documentation version describes 8th software version.  
+During time this software changed multiple times, this documentation version describes 8th software version.  
 Due to backwards compatibility this instructions can be applied to previous software versions.
 
 This page mainly describes controller in default state, and how to change this behavior.
@@ -16,7 +16,7 @@ For normal controller work, user plugs power to suit and connects controller to 
 - Controller starts initialization and checks SD card availability
     - If SD card not available controller will signal <span style="color:RED">**red**</span>/**black** <details> <summary>Solution</summary>
     Firstly check physical card state.  
-      - Please check SD card is inside and it's plugged correctly, controller has spring mechanism inside, and rarely after re-plug you can push SD card over slot.  
+      - Please check SD card is inside and it's plugged correctly, controller has spring mechanism inside which keeps SD card inside. Rarely you can push SD card above slot.  
       - Another problem can be with software part. Check that SD card can be found by PC, and check it's file system is FAT32 <details><summary>Windows format instructions</summary>
 
           ![Windows instructions](images/format_sd_win.jpg)  
@@ -28,6 +28,7 @@ For normal controller work, user plugs power to suit and connects controller to 
           [Video instruction (YouTube)](https://www.youtube.com/watch?v=YjbzpcvOMi4)
         </details>
     </details>
+- Controller creates `log.txt` file.
 - Controller tries to load `config.txt` file.
     - If file not detected controller will signal <span style="color:YELLOW ; text-shadow: 0 0 5px #000000">**yellow**</span>/<span style="color:RED">**red**</span> <details><summary>Solution</summary> Please check that `config.txt` file exists on sd card.  
         - If not, you can copy this file from another controller from repair kit.  
@@ -51,7 +52,9 @@ We recommend going to `blackout` and only after this unplug power to reduce load
 
 ## Effect Files
 Effect file is actually record of realtime show, provided by more complex software. At end of file, software simply reopens file at beginning. Smooth cycled effects are made by starting and ending effect on same place.  
+
 `Effect ID` is number after letter "**`S`**". So effect named `S12.txt` has `Effect ID` = 12.  
+
 If `Effect ID` match - controller will work with both effect, but first effect in alphabetical order will be used for `Radio work` or `Playlist Mode`, no other problems will be faced.
 
 There is no reliable way to visualize effect on PC, only controller software can read effect files. If you try to open effect on your PC you will see random symbol mash. To confidently navigate your file you can customize effect name.
@@ -109,14 +112,14 @@ To perform mode change on default configuration:
   - On launch controller will set preferred mode.
   - >**Note:** Mods, mode status, and ID of each mode listed at the end of `log.txt` file.  
   
-### Change brightness
+## Change brightness
 - Using `config.txt` file
   - Add line `led.brightness=30%` to config file or change existing.
 - Using special file
   - Create file `bright.txt` with value from 0-255. It will be used instead default or value from `config.txt` file.
 > **Note:** Default brightness is 70%. Please note that 50% and 70% can look close, but power consumption differ highly.
 
-### Radio control
+## Radio control
 Our controllers can have a lot more reliable way to communicate each other using radio modules.  
 All information about radio control can be located on special page.  
 [**Radio control page**](Radio.md)
@@ -126,8 +129,6 @@ All information about radio control can be located on special page.
 [**Configuration file page**](Configuration.md) - Provides more info about customization using `config.txt`.  
 [**Button customize page**](Button.md) - contains guide how to change brightness using buttons.  
 [**Wi-Fi connectivity page**](WiFi.md) - instruction set about how to connect controller to your AP, or use controller as AP. Mainly describes how to prepare controller for Art-Net usage.  
-
-[**Playlist file creation page**](modes/Playlist.md#File_creation)  
 
 [**Update instruction page**](Update.md)  
 [**Radio control page**](Radio.md)  
@@ -141,3 +142,5 @@ Modes description pages:
 - [**Auto mode description page**](modes/Auto.md)  
 - [**Test mode description page**](modes/Test.md)  
 - [**Art-Net mode description page**](modes/ArtNet.md)  
+
+[**Art-Net mode description page**](modes/Auto.md)  
