@@ -144,3 +144,5 @@ Modes description pages:
 - [**Art-Net mode description page**](modes/ArtNet.md)  
 
 [**Art-Net mode description page**](modes/Auto.md)  
+
+Trouble shouting:
