@@ -109,3 +109,17 @@ Once connection failed (router disconnected) blue blinks start again.
 You can use some winows tools to find out that controller present in network, or find out unused addresses.
 
 ![Windows cmd tools](images/win_cmd_check_network.png)   
+
+## Extra
+
+We noticed that mobile hotspot is quite effective and use it for testing purposes (range lower than default router, but speed is fine).  
+Always mobile hotspot has following configuration:
+```
+wifi.ssid=HOTSPOT_AP_NAME;
+wifi.password=HOTSPOT_AP_PASSWORD;
+
+wifi.ip=192.168.43.ADDR_HERE;
+wifi.netmask=255.255.255.0;
+wifi.gateway=192.168.43.1;
+```
+So you don't need to perform **Step 1** and can use configuration above.
