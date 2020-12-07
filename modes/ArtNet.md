@@ -31,7 +31,7 @@ Configure Madrix to control your suit.
 Suit started glowing in same way as shown in Madrix central window.
 
 ## Radio Work
-- Radio Ignored during Art-Net mode.\
+- Radio Ignored during Art-Net mode.
 
 ## Buttons
 - Buttons doesn't affect Art-Net work.
