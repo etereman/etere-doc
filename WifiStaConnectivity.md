@@ -1,6 +1,15 @@
 # Wifi Station Mode (STA)
 This page describes **STA** or **station mode** or **network client** mode when controller connects to existing Wi-Fi network.  
 
+## Don't want read just show me
+[**WiFi STA connection video with Web [4 min]**](Connect_controller_to_the_existing_wifi_network.mp4)  
+or navigate to videos folder `Connect_controller_to_the_existing_wifi_network.mp4`  
+Notes: 
+  - Android Hotspot used as Router in this video  
+  - Controller IP and your device IP MUST have different IP, same will cause controller random disconnects.  
+  - You can use your phone with web browser to work with web page.
+    > For some reason, default browsers on some phones doesn't allow dirrect connection by ip, we use Chrome [Android] browser for testing and work with controller.
+  - You can use this guide for Art-Net configuration. 
 ## Introduction
 To interact through Wi-Fi network with controller, controller must be in same network with your device.  
 
