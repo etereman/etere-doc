@@ -18,11 +18,11 @@ Configure Madrix to control your suit.
     Preferences -> Device Manager -> Art-Net tab -> **`Enable`**  checkbox must be set. 
         <details><summary>Picture Instructions</summary>
 
-        ![Madix Enable Art-Net 1](images/Madrix_enable_art_net_1.jpg)  
-        ![Madix Enable Art-Net 2](images/Madrix_enable_art_net_2.jpg)  
-        ![Madix Enable Art-Net 3](images/Madrix_enable_art_net_3.jpg)  
-        ![Madix Enable Art-Net 4](images/Madrix_enable_art_net_4.jpg)  
-        ![Madix Enable Art-Net 5](images/Madrix_enable_art_net_5.jpg)  
+        ![Madix Enable Art-Net 1](../images/Madrix_enable_art_net_1.jpg)  
+        ![Madix Enable Art-Net 2](../images/Madrix_enable_art_net_2.jpg)  
+        ![Madix Enable Art-Net 3](../images/Madrix_enable_art_net_3.jpg)  
+        ![Madix Enable Art-Net 4](../images/Madrix_enable_art_net_4.jpg)  
+        ![Madix Enable Art-Net 5](../images/Madrix_enable_art_net_5.jpg)  
         </details>
         From this moment Madrix started sending data to Network.
 - On Preferences -> Device Manager -> Art-Net tab  
