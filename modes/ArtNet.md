@@ -8,8 +8,6 @@ This page describes Art-Net mode. Art-Net mode allow you to control your suit us
 
 By default, controller configured to set it's own network named `Etere-Network` with password `Secured4897`. Device located at `192.168.4.99`;
 
->**Note:** On some older versions `wifi.mode=OFF;` by default, but other configuration is same as described at this page. Simply add line `wifi.mode=AP;` to `config.txt` file to make Art-Net mode available.  
-
 Configure Madrix to control your suit.
 - Controller creates it's own or connects to existing network.
 - User connects to same network.
