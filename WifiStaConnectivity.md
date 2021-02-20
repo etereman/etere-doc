@@ -2,7 +2,7 @@
 This page describes **STA** or **station mode** or **network client** mode when controller connects to existing Wi-Fi network.  
 
 ## Don't want read just show me
-[**WiFi STA connection video with Web [4 min]**](Connect_controller_to_the_existing_wifi_network.mp4)  
+[**WiFi STA connection video with Web [4 min]**](videos/Connect_controller_to_the_existing_wifi_network.mp4)  
 or navigate to videos folder `Connect_controller_to_the_existing_wifi_network.mp4`  
 Notes: 
   - Android Hotspot used as Router in this video  
