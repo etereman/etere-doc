@@ -3,6 +3,7 @@ This page describes **STA** or **station mode** or **network client** mode when 
 
 ## Don't want read just show me
 Click [**WiFi STA connection video with Web [4 min]**](videos/Connect_controller_to_the_existing_wifi_network.mp4)  
+
 >Github not allow watching video, so click `Download`
 
 Or you navigate to videos folder `Connect_controller_to_the_existing_wifi_network.mp4`  
